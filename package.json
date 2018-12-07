@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts-ts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src --extensions .ts,.tsx --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__,test",
+    "build": "rm -rf dist && NODE_ENV=production babel src --extensions .ts,.tsx --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__,test,.d.ts",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
