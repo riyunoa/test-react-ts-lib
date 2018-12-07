@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-interface ButtonProps {
+export interface ButtonProps {
   label: string;
 }
 
