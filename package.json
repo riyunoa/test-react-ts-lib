@@ -2,6 +2,9 @@
   "name": "test-react-ts-lib",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/index.index.js",
+  "module": "dist/index.js",
+  "files": ["dist"],
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "react": "^16.6.3",
@@ -10,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts-ts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/components --extensions .ts,.tsx --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__,test",
+    "build": "rm -rf dist && NODE_ENV=production babel src --extensions .ts,.tsx --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__,test",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
