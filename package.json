@@ -4,7 +4,7 @@
   "private": true,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": ["build/dist/*"],
+  "files": ["dist/*"],
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "react": "^16.6.3",
