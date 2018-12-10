@@ -18,7 +18,7 @@
     "build": "rm -rf dist && tsc",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "webpack": "webpack"
+    "webpack": "rm -rf dist && webpack"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
