@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/Button/style.scss"],"names":[],"mappings":"AAAA;AACA,kBAAkB","file":"main.css","sourcesContent":[".btn {\n  background: red; }\n"],"sourceRoot":""}
